@@ -1,0 +1,146 @@
+.sentIcon {
+    width: 35px !important;
+    height: 35px !important;
+    -ms-transform: rotate(10deg) !important; /* IE 9 */
+    transform: rotate(35deg) !important;
+  }
+  .mobile-input-container {
+    position: fixed;
+    width: 100%;
+    bottom: -1px;
+    background: white;
+    z-index: 10;
+    display: inline-flex;
+  }
+  .row-header-web {
+    position: fixed !important;
+    width: 60% !important;
+    height: 180px !important;
+    vertical-align: baseline !important;
+    padding: 20px !important;
+    z-index: 10 !important;
+    background: rgb(255, 255, 255) !important;
+  }
+  
+  .row-header-mobile {
+    position: fixed !important;
+    width: 100% !important;
+    height: 100px !important;
+    vertical-align: baseline !important;
+    padding: 20px !important;
+    z-index: 10 !important;
+    background: rgb(255, 255, 255) !important;
+  }
+  
+  .row-header-colom {
+    position: relative !important;
+    top: 10% !important;
+    text-align: center !important;
+    bottom: 20px !important;
+  }
+  
+  .hearer-input-colom {
+    position: relative !important;
+    top: 10% !important;
+    text-align: center !important;
+    width: 100% !important;
+    display: inline-flex !important;
+    margin-bottom: 50px !important;
+  }
+  
+  .hearer-input {
+    border-radius: 0px !important;
+    border-right: none !important;
+  }
+  .attach-button-web {
+    border-radius: 0px !important;
+    background: rgb(247, 247, 247) !important;
+    border-top: 1px solid rgb(206, 212, 218) !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgb(206, 212, 218) !important;
+    border-left: none !important;
+    border-image: initial !important;
+  }
+  .sent-button-web {
+    border-radius: 0px !important;
+    background: rgb(247, 247, 247) !important;
+    border-top: 1px solid rgb(206, 212, 218) !important;
+    border-right: 1px solid rgb(206, 212, 218) !important;
+    border-bottom: 1px solid rgb(206, 212, 218) !important;
+    border-left: none !important;
+    border-image: initial !important;
+  }
+  
+  .sent-button-web-img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .clarify-row-web {
+    margin-top: 180px !important;
+    padding: 0px !important;
+  }
+  .clarify-row-mob {
+    margin-top: 100px !important;
+    padding: 0px !important;
+  }
+  
+  .clarify-outer-container {
+    padding: 0px 15px 15px !important;
+    background: rgb(247, 247, 247) !important;
+    border: 1px solid rgb(216, 216, 216) !important;
+  }
+  
+  .clarify-inner-container {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: rgb(255, 255, 255) !important;
+    border-left: 5px solid rgb(238, 130, 238) !important;
+  }
+  
+  .nested-clarify-inner-container {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: #ffffff !important;
+    border-left: 5px solid brown !important;
+  }
+  
+  .option-btn {
+    width: 15px !important;
+    height: 15px !important;
+    margin-left: 20px !important;
+    margin-right: 10px !important;
+  }
+  .editIcon{
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .user-circle-image {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50px !important;
+  }
+  
+  .user-name {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .messageTag {
+    font-size: 12px;
+  }
+  .messageTime {
+    font-size: 10px;
+  }
+  
+  .messageContent {
+    padding-left: 50px;
+  }
+  
+  .edit-option-icon {
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 20px !important;
+    margin-right: 10px !important;
+  }
+  
