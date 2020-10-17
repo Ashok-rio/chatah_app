@@ -10,17 +10,15 @@ import MobInput from "./components/Input/MobInput";
 import Header from "./components/Header/Header";
 
 const Chat = () => {
-
   const [width] = React.useState(window.innerWidth);
 
   const messages = clarifyData;
-
 
   const clarifyRender = () => {
     return messages.map((data, i) => {
       return (
         <React.Fragment key={i}>
-          <Container  className={"clarify-outer-container"}>
+          <Container className={"clarify-outer-container"}>
             <Clarify clarify={data} type={"main"} />
 
             {data.comments.map((x, i) => {
@@ -37,7 +35,6 @@ const Chat = () => {
                               {z.type === "clarify" && (
                                 <Clarify clarify={z} type={"nested"} />
                               )}
-
                               {z.type === "comment" && (
                                 <Comment comment={z} left={"20px"} />
                               )}

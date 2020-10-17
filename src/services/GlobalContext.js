@@ -1,6 +1,6 @@
 import React from 'react';
 
-const initialState = { option : "" , userType:"Student", userId:""};
+const initialState = { option : "" , userType:"Teacher", userId:""};
 
 export const GlobalContext = React.createContext({});
 

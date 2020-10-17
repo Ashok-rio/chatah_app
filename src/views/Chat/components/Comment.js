@@ -105,7 +105,8 @@ const Comment = props => {
           </React.Fragment>
         );
 
-        default : return <></> 
+      default:
+        return <></>;
     }
   };
 
@@ -114,7 +115,7 @@ const Comment = props => {
       <Row
         style={{
           marginTop: "20px",
-          marginLeft: left,
+          marginLeft: comment.type === "Agree" ?"40px":left,
         }}
       >
         <Col lg={12}>
@@ -130,7 +131,9 @@ const Comment = props => {
                   <span className={"user-name"}>{comment.createdBy.name}</span>{" "}
                   <br />
                   <span className={"messageTag"}>
-                    Commented On -{" "}
+                    {comment.type === "Agree"
+                      ? "Agree with the Comment -"
+                      : "Commented On -"}{" "}
                     <span className={"messageTime"}>
                       {comment.createdBy.date}
                     </span>
